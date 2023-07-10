@@ -1,0 +1,50 @@
+/* * {
+  font-family: sans-serif;
+}
+
+#main-container {
+  background-color: #353535;
+  height: fit-content;
+}
+
+#video-container {
+  background-color: #284b63;
+  height: max-content;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+#table-container {
+  background-color: #284b63;
+}
+
+table {
+  background-color: #284b63;
+  padding: 16px;
+  border-radius: 16px;
+  border-spacing: 0;
+}
+
+th {
+  font-size: 1.2rem;
+  height: 40px;
+}
+
+td {
+  font-size: 1rem;
+  text-align: center;
+  background-color: #3c6e71;
+}
+
+tr:hover > td {
+  cursor: pointer;
+  background-color: #284b63;
+}
+
+.selected > td {
+  background-color: #d9d9d9;
+  color: #353535;
+  font-size: 1.1rem;
+} */

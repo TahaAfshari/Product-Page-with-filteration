@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/styles/basic.css" />
+    <link rel="stylesheet" href="./Assets/styles/style.css" />
+  </head>
+
+  <body>
+    <div id="main-container" class="w-100 h-100 p-t-16">
+      <div
+        id="video-container"
+        class="w-50 m-lr-a p-t-16 b-r-16 f-c a-i-c j-c-se"
+      >
+        <h3 class="t-a-c t-c-w m-t-16" id="video-title">
+          مشاهده ویدیوی معرفی محصولات
+        </h3>
+        <div id="video-box" class="w-50 b-r-16 m-t-32"></div>
+      </div>
+      <div id="table-container" class="w-80 b-r-16 m-t-16 m-lr-a t-c-w">
+        <div id="filter-container">
+          <label for="cpu-filter">فیلتر بر اساس پردازنده:</label>
+          <select id="cpu-filter">
+            <option value="">همه</option>
+            <option value="Core i7">Core i7</option>
+            <option value="Core i5">Core i5</option>
+            <option value="Celeron">Celeron</option>
+          </select>
+
+          <label for="ram-size-filter">فیلتر بر اساس ظرفیت رم:</label>
+          <select id="ram-size-filter">
+            <option value="">همه</option>
+            <option value="4 گیگابایت">4 گیگابایت</option>
+            <option value="8 گیگابایت">8 گیگابایت</option>
+            <option value="16 گیگابایت">16 گیگابایت</option>
+            <option value="24 گیگابایت">24 گیگابایت</option>
+          </select>
+
+          <label for="ram-type-filter">فیلتر بر اساس نوع رم:</label>
+          <select id="ram-type-filter">
+            <option value="">همه</option>
+            <option value="DDR4">DDR4</option>
+          </select>
+
+          <label for="screen-size-filter"
+            >فیلتر بر اساس اندازه صفحه نمایش:</label
+          >
+          <select id="screen-size-filter">
+            <option value="">همه</option>
+            <option value="11.6 اینچ">11.6 اینچ</option>
+            <option value="14 اینچ">14 اینچ</option>
+            <option value="15.6 اینچ">15.6 اینچ</option>
+            <option value="17.3 اینچ">17.3 اینچ</option>
+          </select>
+
+          <label for="screen-resolution-filter"
+            >فیلتر بر اساس دقت صفحه نمایش:</label
+          >
+          <select id="screen-resolution-filter">
+            <option value="">همه</option>
+            <option value="HD">HD</option>
+            <option value="Full HD">Full HD</option>
+          </select>
+
+          <button id="filter-btn">اعمال فیلتر</button>
+        </div>
+        <table id="product-table" class="w-100">
+          <thead>
+            <tr>
+              <th>نام محصول</th>
+              <th>تصویر</th>
+              <th>پردازنده</th>
+              <th>ظرفیت رم</th>
+              <th>نوع رم</th>
+              <th>پردازنده گرافیکی</th>
+              <th>اندازه صفحه نمایش</th>
+              <th>دقت صفحه نمایش</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
